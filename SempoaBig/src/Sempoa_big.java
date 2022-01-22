@@ -12,6 +12,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
+import javax.swing.SwingConstants;
 
 public class Sempoa_big implements java.awt.event.ActionListener, KeyListener {
     /**
@@ -66,41 +67,49 @@ public class Sempoa_big implements java.awt.event.ActionListener, KeyListener {
         panel.setLayout(null);        
 
         questLabel = new JLabel("Start? Press Enter");
-        questLabel.setBounds(110, 15+30, 500+r, 25+r);
+        questLabel.setBounds(15, 15+30, 500+r, 25+r);
         questLabel.setFont(new Font("Calibri", Font.PLAIN,11+r));
+        questLabel.setHorizontalAlignment(SwingConstants.CENTER);
         panel.add(questLabel);
 
         headerLabel = new JLabel("calculate this problem on your abacus:");
-        headerLabel.setBounds(20, 5, 1800+r, 25+r);
+        // headerLabel.setBounds(20, 5, 180+r, 25+r);
+        headerLabel.setBounds(20, 5, 500+r, 25+r);
         headerLabel.setFont(new Font("Calibri", Font.PLAIN,11+r));
+        headerLabel.setHorizontalAlignment(SwingConstants.CENTER);
         panel.add(headerLabel);
          
         ansField = new JTextField(); // tempat mengisi jawaban
-        ansField.setBounds(100, 50+30, 165+r, 25+r);
+        // ansField.setBounds(100, 50+30, 165+r, 25+r);
+        ansField.setBounds(175, 50+30, 165+r, 25+r);
         panel.add(ansField);
         ansField.setFont(new Font("Calibri", Font.PLAIN,11+r));
         ansField.addKeyListener(new Sempoa_big());
         
         optionButton = new JButton(optionsState);
-        optionButton.setBounds(5, 50+30, 80+r, 25+r);
+        // optionButton.setBounds(5, 50+30, 80+r, 25+r);
+        optionButton.setBounds(80, 50+30, 80+r, 25+r);
         optionButton.addActionListener(new Sempoa_big());
         optionButton.setFont(new Font("Calibri", Font.PLAIN,11+r));
         panel.add(optionButton);
 
         startButton = new JButton("start");
-        startButton.setBounds(100, 80+40, 80+r, 25+r);
+        // startButton.setBounds(100, 80+40, 80+r, 25+r);
+        startButton.setBounds(215, 80+40, 80+r, 25+r);
         startButton.setFont(new Font("Calibri", Font.PLAIN,11+r));
         startButton.addActionListener(new Sempoa_big());
         panel.add(startButton);
         
         successLabel = new JLabel("");
-        successLabel.setBounds(100, 80+30, 300+r+100, 25+r);
+        successLabel.setBounds(80, 80+30, 300+r+100, 25+r);
         successLabel.setFont(new Font("Calibri", Font.PLAIN,11+r));
+        successLabel.setHorizontalAlignment(SwingConstants.CENTER);
         panel.add(successLabel);
 
         conLabel = new JLabel("continue? press enter, 'no' to exit");
         conLabel.setBounds(100, 100+40, 300+r+100, 25+r);
         conLabel.setFont(new Font("Calibri", Font.PLAIN,11+r));
+        conLabel.setHorizontalAlignment(SwingConstants.CENTER);
         panel.add(conLabel);
 
     }
