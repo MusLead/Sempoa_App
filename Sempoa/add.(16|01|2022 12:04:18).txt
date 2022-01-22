@@ -1,0 +1,10 @@
+2928 + 2534 = 5362 | try again: 5462
+
+2224 + 2137 = 4365 | try again: 4361
+
+357 + 1814 = 2271 | try again: 2171
+
+2537 + 2923 = 5460 | correct
+
+coba latihan lagi, daripada hitung maju, coba 
+kali ini hitung mundur! Sisanya langsung katakan (tambah sesuatu)

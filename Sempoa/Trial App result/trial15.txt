@@ -1,0 +1,40 @@
+20 - 19 = 1 | correct
+
+20 - 18 = 2 | correct
+
+20 - 17 = 3 | correct
+
+20 - 16 = 4 | correct
+
+20 - 15 = 5 | correct
+
+20 - 14 = 6 | correct
+
+20 - 13 = 7 | correct
+
+20 - 12 = 8 | correct
+
+20 - 11 = 9 | correct
+
+20 - 10 = 10 | correct
+
+20 - 9 = 11 | correct
+
+20 - 8 = 12 | correct
+
+20 - 7 = 13 | correct
+
+20 - 6 = 14 | correct
+
+20 - 5 = 15 | correct
+
+20 - 4 = 16 | correct
+
+20 - 3 = 17 | correct
+
+20 - 2 = 18 | correct
+
+20 - 1 = 19 | correct
+
+20 - 0 = 0 | try again: 20
+
